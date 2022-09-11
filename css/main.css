@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  padding: 20px 0;
+}
+.header .container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.header .point {
+  font-size: 22px;
+}
+.header .point__amount {
+  color: red;
+}
+
+.game-wrapper {
+  width: 95%;
+  height: 90vh;
+  margin: 0 auto;
+  border: 10px solid #161616;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.block {
+  width: 40px;
+  height: 250px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 250px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
