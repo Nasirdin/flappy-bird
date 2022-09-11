@@ -25,12 +25,10 @@ pipe[0] = {
   y: 0,
 };
 
-document.addEventListener("keydown", moveUp);
+document.addEventListener("click", moveUp);
 
 function moveUp(e) {
-  if (e.key === " ") {
     yPos -= 25;
-  }
 }
 
 function draw() {
